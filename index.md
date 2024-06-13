@@ -60,11 +60,8 @@ For your first milestone, describe what your project is and how you plan to buil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For my starter project, I chose the arduino starter project, which allows for an imput and an output. When building my configurations, I chose the button input, allowing me to press the button and outputting the LEDs that I chose. There were 2 lights in my modification, one that turned on when button was pressed, and the other turned on when the button wasnt pressed. Overall, it was quite challenging for me because I ran into many issues and erros along the way and even had to rebuild my proto shield. The soldering caused many issues and many unknown problems were in the board, causing me to have to rebuild the entire thing. Overall, I still recommend doing this project because you would learn everything you wouldn't know without doing this project and this was a great learning experience. Also, you choose try and modify your inputs and outputs to absorb the most out of it, however, I believe the tutorials didn't teach a lot, requiring me to trial and error.
+
 
 
 
