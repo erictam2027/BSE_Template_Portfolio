@@ -3,9 +3,7 @@ Replace this text with a brief description (2-3 sentences) of your project. This
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 
-'''
-I haven't completed my starter project yet, since Im having lots of issues with errors and soldering
-I also havent started on my main project since I havent finished my video
+
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -16,7 +14,9 @@ I also havent started on my main project since I havent finished my video
 
 
 <img src="Eric_T (1).JPG" alt="Headshot" width="500" height="600">
-  
+
+<!--
+ 
 # Final Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -54,6 +54,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
+  -->
 
 # Starter project
 
@@ -64,7 +65,7 @@ For your first milestone, describe what your project is and how you plan to buil
 For my starter project, I chose the arduino starter project, which allows for an imput and an output. When building my configurations, I chose the button input, allowing me to press the button and outputting the LEDs that I chose. There were 2 lights in my modification, one that turned on when button was pressed, and the other turned on when the button wasnt pressed. Overall, it was quite challenging for me because I ran into many issues and errors along the way and even had to rebuild my proto shield. The soldering caused many issues and many unknown problems were in the board, causing me to have to rebuild the entire thing. Overall, I still recommend doing this project because you would learn everything you wouldn't know without doing this project and this was a great learning experience. Also, you choose try and modify your inputs and outputs to absorb the most out of it, however, I believe the tutorials didn't teach a lot, requiring me to trial and error.
 
 
-
+<!--
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -72,7 +73,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
+c++
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
@@ -86,7 +87,7 @@ void loop() {
 ```
 
 
-
+-->
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -94,6 +95,13 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
+| Raspberri Pi 4 Model B | What the item is used for | $Price | <a href="https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A2QE71HEBJRNZE&th=1"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
