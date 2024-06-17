@@ -14,7 +14,7 @@ I also havent started on my main project since I havent finished my video
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headshot](Eric_T(1).JPG)
+!(Eric_T(1).JPG)
   
 # Final Milestone
 
