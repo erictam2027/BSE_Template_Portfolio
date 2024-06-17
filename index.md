@@ -14,7 +14,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Eric T | Valley Christian High School | Computer Engineering | Incoming Sophomore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+
 
 
 <img src="Eric_T (1).JPG" alt="Headshot" width="500" height="600">
@@ -114,6 +114,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Soldering Kit | What the item is used for | $14.99 | <a href="https://www.amazon.com/Soldering-Interchangeable-Adjustable-Temperature-Enthusiast/dp/B087767KNW/ref=sr_1_5?crid=1QYWI5SBQAPH0&keywords=soldering%2Bkit&qid=1689900771&sprefix=soldering%2Bkit%2Caps%2C169&sr=8-5&th=1"> Link </a> |
 
 
+<!--
+
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
@@ -121,3 +123,6 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+
+
+-->
