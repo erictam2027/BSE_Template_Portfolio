@@ -60,13 +60,21 @@ For your first milestone, describe what your project is and how you plan to buil
 - What your plan is to complete your project
   -->
 
-# Starter project
+# Arduino Starter Project
 
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5sS4r5BRks8?si=SgCfxLQdLVn6RgoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For my starter project, I chose the arduino starter project, which allows for an imput and an output. When building my configurations, I chose the button input, allowing me to press the button and outputting the LEDs that I chose. There were 2 lights in my modification, one that turned on when button was pressed, and the other turned on when the button wasnt pressed. Overall, it was quite challenging for me because I ran into many issues and errors along the way and even had to rebuild my proto shield. The soldering caused many issues and many unknown problems were in the board, causing me to have to rebuild the entire thing. Overall, I still recommend doing this project because you would learn everything you wouldn't know without doing this project and this was a great learning experience. Also, you choose try and modify your inputs and outputs to absorb the most out of it, however, I believe the tutorials didn't teach a lot, requiring me to trial and error.
+<h2>
+ Summary
+</h2>
+For my starter project, I chose the arduino starter project, which allows for an imput and an output. When building my configurations, I chose the button input, allowing me to press the button and outputting the LEDs that I chose. There were 2 lights in my modification, one that turned on when button was pressed, and the other turned on when the button wasnt pressed. For my code, I intialized all the variables and made an if statement allowing for my output to return correctly. For my circuit, the 5V and GND were providing power to my board, connecting to all the components giving power to the button and LEDs. Through wires and resistors, I was able to connect my button to my LEDs, allowing them to both interact.
+
+<h3>
+ Challenges Faced
+</h3>
+Although my project ran smoothly and responsive in the end, I ran into many challenges along the way causing may setbacks. First, my soldering iron was very weak, making it hard to solder and eventually causing many short circuits, so i had to rebuild my whole proto shield. Also, some components didn't work when constructing, so it took time troubleshooting. Lastly, building the circuit in the beginning was pretty challenging considering the amount of space on the proto shield. Initially, with the breadboard, I could place all the components wherever I wanted since they were all connected, but when It came to soldering it onto the shield, I had to make adjustments to my placement causing me to challenge my technical skills 
 
 
 <!--
