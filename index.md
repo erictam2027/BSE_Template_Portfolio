@@ -47,19 +47,38 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
-
+-->
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
-  -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jH4JYiuLHz4?si=nz9Xh8DGZ9DOImPa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<h2>
+ Summary
+</h2>
+The final step for my project is to enable the robot to detect the red ball and move towards the ball. For my first milestone, I completed the hardware side of my project. I built my motors and wheels, install my raspberry pi and connected it to all my components, and built my camera and sensors. Also, I programmed test code for my motor, sensors, and camera, allowing for all the main components to have a basic use. 
+
+<h3>
+ Components
+</h3>
+
+<ul>
+<li>Raspberry Pi Computer: This is the brain of the robot/car. It processes code and tells the robot what to do. It has a 40 pin pinout, heat sinks, a USBC input, 2 mini HDMIs, 4 USB inputs, and an HDMI input <br></li>
+<li>Motor Driver: It powers the motors. The L298N can control the speed and direction of the motors through the code written in the Raspberry Pi computer. It is connected to the motors and to the Raspberry Pi Computer <br></li>
+<li>DC Motors: DC motors run from converting electrical energy to mechanical energy <br></li>
+<li>Battery Pack 1: Powers the Raspberry Pi <br></li>
+<li>Battery Pack 2: Powers the L298N motor driver <br></li>
+<li>Camera: It tracks the ball. Once the ball is on the camera, it creates a rectangle around the ball so it is easier to track<br></li>
+<li>Ultrasonic sensors: They tell the distance that the object is from the sensor. The sensor releases an ultrasonic wave that bounces off the object and back, and we can calculate the distance by using the amount of time the wave takes to come back.<br></li>
+<li>Breadboard: Used to connect different parts of my robot together. Used to create circuits<br></li>
+</ul>
+
+<h4>
+ Challenges Faced
+</h4>
+
+Overall, my first milestone wasn't complicated by still came with some problems. First, when programming my test code for all my components, my SD card stopped working, causing me to have to replace it and redownload Raspberry Pi. Also, since there were many hardware parts to put together, it took some frustration and time since the wires disconnected many times becauses of its looseness. Lastly, I ran into problems and errors in the code since the tutorial was outdated. I had to do my own research and programming for the test code, which took time to do.
+
 
 # Arduino Starter Project
 
