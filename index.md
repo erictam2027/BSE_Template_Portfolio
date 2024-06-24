@@ -110,6 +110,120 @@ Components
 </h4>
 Although my project ran smoothly and responsive in the end, I ran into many challenges along the way causing may setbacks. First, my soldering iron was very weak, making it hard to solder and eventually causing many short circuits, so i had to rebuild my whole proto shield. Also, some components didn't work when constructing, so it took time troubleshooting. Lastly, building the circuit in the beginning was pretty challenging considering the amount of space on the proto shield. Initially, with the breadboard, I could place all the components wherever I wanted since they were all connected, but when It came to soldering it onto the shield, I had to make adjustments to my placement causing me to challenge my technical skills 
 
+<h1>
+ Ball Tracking Robot Test Codes
+</h1>
+
+<h2>
+Basic Camera Test Code
+</h2>
+
+Useful when beginning with this project, being one of the simplest ways to experiment with live video capture with OpenCV’s cv2.VideoCapture() function.
+<pre><code>
+from picamera2 import Picamera2, Preview
+picam2 = Picamera2()
+camera_config = picam2.create_preview_configuration()
+picam2.configure(camera_config)
+picam2.start_preview(Preview.QTGL)
+picam2.start()
+time.sleep(2)
+picam2.capture_file("test.jpg")
+</code></pre>
+
+<h2>
+Basic Ultrasonic Senor Test Code
+</h2>
+
+This code is a very simple way to start understanding ultrasonic sensor calculations to convert garbage sensor values to ones that are crucial to the movement of the robot relative to these values. This simple code will print the distance at which the closest detected object lays.
+<pre><code>
+import RPi.GPIO as GPIO
+import time
+GPIO.setmode(GPIO.BCM)
+
+TRIG = 19
+ECHO = 26
+
+while True:
+    GPIO.setup(TRIG, GPIO.OUT)
+    GPIO.setup(ECHO, GPIO.IN)
+    GPIO.output(TRIG,False)
+   
+    time.sleep(0.2)
+    GPIO.output(TRIG,True)
+   
+    time.sleep(0.00001)
+    GPIO.output(TRIG,False)
+   
+    while GPIO.input(ECHO) == 0:
+        pulse_start = time.time()
+    while GPIO.input(ECHO) == 1:
+        pulse_end = time.time()
+       
+    pulse_duration = pulse_end - pulse_start
+   
+    distance = pulse_duration * 17150
+    distance = round(distance,2)
+   
+    print ('distance',distance,'cm')
+</code></pre>
+
+<h2>
+Basic Motor Test Code
+</h2>
+
+This code uses basic WASD controls to move your robot, similar to controlling a video game character. It is extremely useful for testing basic mechanical function of DC motors, as well as working through the logical aspect of new vehicle control implementations.
+<pre><code>
+import RPi.GPIO as GPIO
+        import cv2
+        import numpy as np
+        
+        GPIO.setmode(GPIO.BCM)
+        
+        MOTOR1B=6 # LEFT motor
+        MOTOR1E=5
+        
+        MOTOR2B=22 # RIGHT motor
+        MOTOR2E=23 
+        
+        GPIO.setup(MOTOR1B, GPIO.OUT)
+        GPIO.setup(MOTOR1E, GPIO.OUT)
+        
+        GPIO.setup(MOTOR2B, GPIO.OUT)
+        GPIO.setup(MOTOR2E, GPIO.OUT)
+        
+        while(True):
+            userInput = input()
+            
+            if(userInput == 'w'):
+                GPIO.output(MOTOR1B,GPIO.HIGH)
+                GPIO.output(MOTOR1E,GPIO.LOW)
+                GPIO.output(MOTOR2B,GPIO.HIGH)
+                GPIO.output(MOTOR2E,GPIO.LOW)
+            
+            if(userInput == 'a'):
+                GPIO.output(MOTOR1B,GPIO.LOW)
+                GPIO.output(MOTOR1E,GPIO.LOW)
+                GPIO.output(MOTOR2B,GPIO.HIGH)
+                GPIO.output(MOTOR2E,GPIO.LOW)
+                
+            if(userInput == 's'):
+                GPIO.output(MOTOR1B,GPIO.LOW)
+                GPIO.output(MOTOR1E,GPIO.HIGH)
+                GPIO.output(MOTOR2B,GPIO.LOW)
+                GPIO.output(MOTOR2E,GPIO.HIGH)
+            
+            if(userInput == 'd'):
+                GPIO.output(MOTOR1B,GPIO.HIGH)
+                GPIO.output(MOTOR1E,GPIO.LOW)
+                GPIO.output(MOTOR2B,GPIO.LOW)
+                GPIO.output(MOTOR2E,GPIO.LOW)
+        
+            if(userInput == 'x'):
+                 GPIO.output(MOTOR1B,GPIO.LOW)
+                 GPIO.output(MOTOR1E,GPIO.LOW)
+                 GPIO.output(MOTOR2B,GPIO.LOW)
+                 GPIO.output(MOTOR2E,GPIO.LOW)
+</code></pre>
 
 <!--
 
