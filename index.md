@@ -92,8 +92,22 @@ Overall, my first milestone wasn't complicated by still came with some problems.
 For my starter project, I chose the arduino starter project, which allows for an imput and an output. When building my configurations, I chose the button input, allowing me to press the button and outputting the LEDs that I chose. There were 2 lights in my modification, one that turned on when button was pressed, and the other turned on when the button wasnt pressed. For my code, I intialized all the variables and made an if statement allowing for my output to return correctly. For my circuit, the 5V and GND were providing power to my board, connecting to all the components giving power to the button and LEDs. Through wires and resistors, I was able to connect my button to my LEDs, allowing them to both interact.
 
 <h3>
- Challenges Faced
+Components
 </h3>
+
+<ul>
+ <li>Arduino: Microcontroller; the main component of my project <br></li>
+ <li>Resistors: Part used to resist the flow of energy between different objects<br></li>
+ <li>LEDs: An output and modification, turns off and on <br></li>
+ <li>Jumper wires: Connects electricity between different parts<br></li>
+ <li>Button: My input used for modification between my LEDs</li>
+ <li>Proto shield: Goes on top and soldered to the arduino, used to combine soldered components to arduino</li>
+</ul>
+
+
+<h4>
+ Challenges Faced
+</h4>
 Although my project ran smoothly and responsive in the end, I ran into many challenges along the way causing may setbacks. First, my soldering iron was very weak, making it hard to solder and eventually causing many short circuits, so i had to rebuild my whole proto shield. Also, some components didn't work when constructing, so it took time troubleshooting. Lastly, building the circuit in the beginning was pretty challenging considering the amount of space on the proto shield. Initially, with the breadboard, I could place all the components wherever I wanted since they were all connected, but when It came to soldering it onto the shield, I had to make adjustments to my placement causing me to challenge my technical skills 
 
 
