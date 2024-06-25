@@ -73,9 +73,9 @@ The final step for my project is to enable the robot to detect the red ball and 
 <li>Breadboard: Used to connect different parts of my robot together. Used to create circuits<br></li>
 </ul>
 
-<h4>
+<h3>
  Challenges Faced
-</h4>
+</h3>
 
 Overall, my first milestone wasn't complicated by still came with some problems. First, when programming my test code for all my components, my SD card stopped working, causing me to have to replace it and redownload Raspberry Pi. Also, since there were many hardware parts to put together, it took some frustration and time since the wires disconnected many times becauses of its looseness. Lastly, I ran into problems and errors in the code since the tutorial was outdated. I had to do my own research and programming for the test code, which took time to do.
 
