@@ -34,7 +34,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
 
-
+-->
 
 # Second Milestone
 
@@ -47,7 +47,34 @@ For your second milestone, explain what you've worked on since your previous mil
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone 
--->
+
+<h2>
+ Summary
+</h2>
+
+For my second milestone, I programmed code allowing my camera to track the ball using a contour that creates a circle around a red ball. From there, the robot identifies a red ball by detecting the pixels of hues that depict red. Lastly, the motors move towards where the ball is located according to the camera. This was a major part of building my robot, and all I would need is to calculate the distance which is my third milestone.
+
+<h3>
+ Components Used
+</h3>
+New components used after my first milestone
+<ul>
+<li>CAD (Computer Aided Design): I used CAD to print a new case for my ultrasonic sensors and camera <br></li>
+<li>Basic Assembly and Wiring Components: Resistors, Jumper Wires, Hot Glue, Solder <br></li>
+</ul>
+
+<h3>
+ Challenges Faces
+</h3>
+
+Since my first milestone, I have faced numerous challenges with my code and some of my components. Through many days and trial and errors, I was able to get the robot to track the ball and follow to its direction. Also, changing the circuit was part of one of my challenges considering I had to rebuild it because of the resistors and the voltage path. Also, since some components broke like my camera cable and my cases for my ultrasonic sensor, I had to replace them or CAD them.
+
+
+<h3>
+ What's next?
+</h3>
+Considering I'm ahead in my second milestone, in my third milestone, I plan on incorporating the distance between the ball and the robot by using the ultrasonic sensor. This is the last part of my project before modifications. In order to add the distance, however, the one side of thesensor has to bounce off the red ball into the other side, and using a formula, will create a distance. Also, I plan on making tracking the robot more accurate since it detects other red objects instead of just the ball.
+
 # First Milestone
 
 
@@ -59,7 +86,7 @@ For your second milestone, explain what you've worked on since your previous mil
 The final step for my project is to enable the robot to detect the red ball and move towards the ball. For my first milestone, I completed the hardware side of my project. I built my motors and wheels, install my raspberry pi and connected it to all my components, and built my camera and sensors. Also, I programmed test code for my motor, sensors, and camera, allowing for all the main components to have a basic use. 
 
 <h3>
- Components
+ Components Used
 </h3>
 
 <ul>
@@ -83,8 +110,7 @@ Overall, my first milestone wasn't complicated by still came with some problems.
 # Arduino Starter Project
 
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5sS4r5BRks8?si=SgCfxLQdLVn6RgoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OtCNuAs-0rw?si=aCFD5udPqj_NkJ2H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h2>
  Summary
