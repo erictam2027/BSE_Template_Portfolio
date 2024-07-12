@@ -18,7 +18,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 
 
-<img src="Eric_T (1).JPG" alt="Headshot" width="450" height="600">
+<img src="Eric T (1).jpeg" alt="Headshot" width="450" height="600">
 
 <!--
  
