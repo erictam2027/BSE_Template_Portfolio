@@ -20,21 +20,32 @@ You should comment out all portions of your portfolio that you have not complete
 
 <img src="Eric T (1).jpeg" alt="Headshot" width="450" height="600">
 
-<!--
+
  
-# Final Milestone
+# Third Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1nbsAwfkYgQ?si=lR9dSLLciGh0H19w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
--->
+
+<h2>
+ Summary
+</h2>
+
+In this milestone, I incorporated my ultrasonic sensor into my main project. I added code to my program to allow the distance from the ball to the robot to be printed on the screen. In order to do that, the ultrasonic sensor sends signals towards the ball and bounces to the other side of the sensor, giving it a number. After, I converted the seconds to distance by using different equations and formulas. Also, I incorporated the robot stopping when it gets to a distance of 10 cm or closer.
+
+<h3>
+ Challenges Faced
+</h3>
+
+Throughout this third milestone, there weren't many challenges considering this milestone is very simple. I just implemented my test code, however, I had to change my whole circuit because of different issues like the voltage divider. One issue I had was the amount of voltage moving towards the sensor because the battery pack was supplying power to the ultrasonic sensor, causing it to overheat and eventually break.
+
+<h3>
+ What's next?
+</h3>
+I plan on implementing some modifications including different software and hardware modifications like claws to trap the ball. Another modification is adding 2 more sensors, allowing the distance to be tracking from different angles instead of just the front angle. Another modification is encoders, which allow the robot to return to the starting position, and lastly, a case convering most of my components from disassembling.
+
 
 # Second Milestone
 
